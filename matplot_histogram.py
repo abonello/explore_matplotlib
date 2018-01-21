@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # of things
 
 population_ages = [22,55,62,45,21,22,34,42,42,4,99,102,110,120,121,122,130,111,115,80,75,65,54,44,43,42,48]
-ids = [x for x in range(len(population_ages))]
+ids = [x+1 for x in range(len(population_ages))]
 
 
 plt.xlabel('x')
