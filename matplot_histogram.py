@@ -8,8 +8,11 @@ population_ages = [22,55,62,45,21,22,34,42,42,4,99,102,110,120,121,122,130,111,1
 ids = [x+1 for x in range(len(population_ages))]
 
 
+plt.bar(ids, population_ages)
+
+
 plt.xlabel('x')
 plt.ylabel('y')
 plt.title('A title\nA subtitle')
-plt.legend()
-plt.show
+# plt.legend()
+plt.show()
