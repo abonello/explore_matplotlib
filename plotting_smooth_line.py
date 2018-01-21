@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
+import numpy as np
+from scipy.interpolate import spline
 
 x = [1,2,3,4,5,6,7,8]
 y = [1,2,5,8,6,3,4,7]
