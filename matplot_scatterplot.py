@@ -6,11 +6,15 @@ import matplotlib.pyplot as plt
 # the distribution.
 # In 3D graphs you can see the correlation between 3 sets of data.
 
+x = [x+1 for x in range(8)]
+y = [5,2,4,2,1,4,5,2]
 
+
+plt.scatter(x, y, label = 'spread', color = 'k') # k = black
 
 
 plt.xlabel('x')
 plt.ylabel('y')
 plt.title('A title')
-# plt.legend()
+plt.legend()
 plt.show()
