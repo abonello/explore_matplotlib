@@ -12,5 +12,5 @@ I solved this in the following way.
     `touch matplotlibrc`
 3. inside this file put the following code:  
     `backend: TkAgg`  
-    I used nano, but any text editor
+    I used nano, but any text editor will do.
 
