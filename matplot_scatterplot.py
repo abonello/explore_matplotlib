@@ -10,7 +10,10 @@ x = [x+1 for x in range(8)]
 y = [5,2,4,2,1,4,5,2]
 
 
-plt.scatter(x, y, label = 'spread', color = 'k') # k = black
+plt.scatter(x, y, label = 'spread', color = 'k', marker ='$hjk$', s = 300) # k = black
+# examples of markers: o, *, ^, ., v, <, >, 8, s, p, P, x, X, h, H, d, D, _, |
+# interesting $text$ will render the string using mathtext
+# s is the size of the marker
 
 
 plt.xlabel('x')
