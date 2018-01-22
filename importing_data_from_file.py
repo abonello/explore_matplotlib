@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import csv
 
 # We will import data from a file and plot it.
 
