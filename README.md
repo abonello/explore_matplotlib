@@ -14,3 +14,10 @@ I solved this in the following way.
     `backend: TkAgg`  
     I used nano, but any text editor will do.
 
+Types of Graphs/Charts covered:
+1. Line Graph -- also smoothed
+2. Bar Charts -- NB bars can be stacked as well.
+3. Histograms
+4. Scatter Plots
+5. Stack Plots
+6. Pie Charts
