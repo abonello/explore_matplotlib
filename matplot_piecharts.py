@@ -22,5 +22,5 @@ plt.pie(slice1, labels = activities, colors = cols)
 # plt.ylabel('y')
 # plt.legend()
 plt.title('Pie Chart')
-plt.suptitle('Day 5', y = 0.88, fontsize = 10)
+plt.suptitle('Day 5', y = 0.88, fontsize = 10) # used as subtitle
 plt.show()
