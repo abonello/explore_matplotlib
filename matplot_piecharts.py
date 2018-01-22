@@ -12,9 +12,15 @@ playing  = [8,5,10,6,10]
 
 slice1 = [sleeping[4],eating[4], working[4], playing[4]] # 7 2 5 10
 activities = ['sleeping', 'eating', 'working', 'playing']
-cols = ['k', 'r', 'b', 'g']
+cols = ['c', 'r', 'b', 'g']
 
-plt.pie(slice1, labels = activities, colors = cols, startangle = 90, shadow = True, explode=(0, 0, 0.1, 0.1))
+plt.pie(slice1, 
+        labels = activities, 
+        colors = cols, 
+        startangle = 90, 
+        shadow = True, 
+        explode=(0, 0, 0.1, 0.1),
+        autopct='%1.1f%%')
 
 # It does not make sense to have x and y labels
 # Legend is not needed in this case
